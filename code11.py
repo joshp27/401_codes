@@ -2,7 +2,7 @@
 # Script: Ops 401 Class 11 Code Challenge
 # Joshua Phipps
 # 5/1/2023
-# Purpose: Network Security Tool with Scapy Part 1 of 3
+# Purpose: Network Security Tool with Scapy Part 3 of 3
 
 
 #!/user/bin/python3
