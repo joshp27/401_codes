@@ -7,10 +7,10 @@
 import getpass, os, time, paramiko, sys
 
 # Define global variables
-host = "your ssh host"
+host = "enter you host ip"
 port = 22
-username = "your ssh username"
-global_file_path = r"rockyoufilepath"
+username = "enter host ssh user"
+global_file_path = r"copy file path to VSCode and copy path here"
 
 # Mode 1
 def iterator():
