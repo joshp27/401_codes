@@ -1,0 +1,153 @@
+[
+    {
+    "AccountId": "467589807469",
+    "Arn": "arn:aws:guardduty:us-west-2:467589807469:detector/60c40674cad2de13ff4cb83aca740cb0/finding/2c09df941a2645afb2da1c77cd0fc403",
+    "CreatedAt": "2023-05-11T22:24:05.936Z",
+    "Description": "EC2 instance i-99999999 is behaving in a manner that may indicate it is being used to perform a Denial of Service (DoS) attack using TCP protocol.",
+    "Id": "2c09df941a2645afb2da1c77cd0fc403",
+    "Partition": "aws",
+    "Region": "us-west-2",
+    "Resource": {
+      "InstanceDetails": {
+        "AvailabilityZone": "GeneratedFindingInstanceAvailabilityZone",
+        "IamInstanceProfile": {
+          "Arn": "arn:aws:iam::467589807469:example/instance/profile",
+          "Id": "GeneratedFindingInstanceProfileId"
+        },
+        "ImageDescription": "GeneratedFindingInstanceImageDescription",
+        "ImageId": "ami-99999999",
+        "InstanceId": "i-99999999",
+        "InstanceState": "running",
+        "InstanceType": "m3.xlarge",
+        "OutpostArn": "arn:aws:outposts:us-west-2:123456789000:outpost/op-0fbc006e9abbc73c3",
+        "LaunchTime": "2016-08-02T02:05:06.000Z",
+        "NetworkInterfaces": [
+          {
+            "Ipv6Addresses": [],
+            "NetworkInterfaceId": "eni-bfcffe88",
+            "PrivateDnsName": "GeneratedFindingPrivateDnsName",
+            "PrivateIpAddress": "10.0.0.1",
+            "PrivateIpAddresses": [
+              {
+                "PrivateDnsName": "GeneratedFindingPrivateName",
+                "PrivateIpAddress": "10.0.0.1"
+              }
+            ],
+            "PublicDnsName": "GeneratedFindingPublicDNSName",
+            "PublicIp": "198.51.100.0",
+            "SecurityGroups": [
+              {
+                "GroupId": "GeneratedFindingSecurityId",
+                "GroupName": "GeneratedFindingSecurityGroupName"
+              }
+            ],
+            "SubnetId": "GeneratedFindingSubnetId",
+            "VpcId": "GeneratedFindingVPCId"
+          }
+        ],
+        "Platform": null,
+        "ProductCodes": [
+          {
+            "Code": "GeneratedFindingProductCodeId",
+            "ProductType": "GeneratedFindingProductCodeType"
+          }
+        ],
+        "Tags": [
+          {
+            "Key": "GeneratedFindingInstanceTag1",
+            "Value": "GeneratedFindingInstanceValue1"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag2",
+            "Value": "GeneratedFindingInstanceTagValue2"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag3",
+            "Value": "GeneratedFindingInstanceTagValue3"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag4",
+            "Value": "GeneratedFindingInstanceTagValue4"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag5",
+            "Value": "GeneratedFindingInstanceTagValue5"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag6",
+            "Value": "GeneratedFindingInstanceTagValue6"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag7",
+            "Value": "GeneratedFindingInstanceTagValue7"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag8",
+            "Value": "GeneratedFindingInstanceTagValue8"
+          },
+          {
+            "Key": "GeneratedFindingInstanceTag9",
+            "Value": "GeneratedFindingInstanceTagValue9"
+          }
+        ]
+      },
+      "ResourceType": "Instance"
+    },
+    "SchemaVersion": "2.0",
+    "Service": {
+      "Action": {
+        "ActionType": "NETWORK_CONNECTION",
+        "NetworkConnectionAction": {
+          "Blocked": false,
+          "ConnectionDirection": "OUTBOUND",
+          "LocalPortDetails": {
+            "Port": 24198,
+            "PortName": "Unknown"
+          },
+          "Protocol": "TCP",
+          "LocalIpDetails": {
+            "IpAddressV4": "10.0.0.23"
+          },
+          "RemoteIpDetails": {
+            "City": {
+              "CityName": "GeneratedFindingCityName"
+            },
+            "Country": {
+              "CountryName": "GeneratedFindingCountryName"
+            },
+            "GeoLocation": {
+              "Lat": 0,
+              "Lon": 0
+            },
+            "IpAddressV4": "198.51.100.0",
+            "Organization": {
+              "Asn": "-1",
+              "AsnOrg": "GeneratedFindingASNOrg",
+              "Isp": "GeneratedFindingISP",
+              "Org": "GeneratedFindingORG"
+            }
+          },
+          "RemotePortDetails": {
+            "Port": 80,
+            "PortName": "HTTP"
+          }
+        }
+      },
+      "Archived": false,
+      "Count": 1,
+      "DetectorId": "60c40674cad2de13ff4cb83aca740cb0",
+      "EventFirstSeen": "2023-05-11T22:24:05.000Z",
+      "EventLastSeen": "2023-05-11T22:24:05.000Z",
+      "ResourceRole": "ACTOR",
+      "ServiceName": "guardduty",
+      "AdditionalInfo": {
+        "Value": "{\"sample\":true}",
+        "Type": "default"
+      }
+    },
+    "Severity": 8,
+    "Title": "EC2 instance i-99999999 is behaving in a manner that may indicate it is being used to perform a Denial of Service (DoS) attack using TCP protocol.",
+    "Type": "Backdoor:EC2/DenialOfService.Tcp",
+    "UpdatedAt": "2023-05-11T22:24:05.936Z"
+  }
+]
