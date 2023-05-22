@@ -1,0 +1,10 @@
+2023-05-22 21:54:05,548 ERROR: An error occurred while scanning port 22: [Errno 1] Operation not permitted
+2023-05-22 21:54:05,549 ERROR: An error occurred while scanning port 23: [Errno 1] Operation not permitted
+2023-05-22 21:54:05,550 ERROR: An error occurred while scanning port 80: [Errno 1] Operation not permitted
+2023-05-22 21:54:05,550 ERROR: An error occurred while scanning port 443: [Errno 1] Operation not permitted
+2023-05-22 21:54:05,551 ERROR: An error occurred while scanning port 3389: [Errno 1] Operation not permitted
+2023-05-22 22:05:16,079 ERROR: An error occurred while scanning port 22: [Errno 1] Operation not permitted
+2023-05-22 22:05:16,080 ERROR: An error occurred while scanning port 23: [Errno 1] Operation not permitted
+2023-05-22 22:05:16,081 ERROR: An error occurred while scanning port 80: [Errno 1] Operation not permitted
+2023-05-22 22:05:16,082 ERROR: An error occurred while scanning port 443: [Errno 1] Operation not permitted
+2023-05-22 22:05:16,082 ERROR: An error occurred while scanning port 3389: [Errno 1] Operation not permitted
