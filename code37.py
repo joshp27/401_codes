@@ -2,7 +2,7 @@
 # Script: Ops 401 Class 37 Code Challenge
 # Joshua Phipps
 # 6/7/2023
-# Purpose: Web Application Fingerprinting
+# Purpose: Cookie Capture Capades
 
 
 
